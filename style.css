@@ -12,4 +12,5 @@ html {
 
 body {
   font-family: "Kumbh Sans", sans-serif;
+  overflow-x: hidden;
 }
