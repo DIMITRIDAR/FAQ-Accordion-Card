@@ -32,3 +32,11 @@ body {
   position: relative;
   border-radius: 2rem;
 }
+
+.photo-container-mobile {
+  align-self: center;
+}
+
+.photo-container-desktop {
+  display: none;
+}
