@@ -54,3 +54,23 @@ body {
   font-weight: 700;
   align-self: center;
 }
+
+.faq-item {
+  position: relative;
+}
+
+.faq-question {
+  color: #4b4c5f;
+  font-size: 1.3rem;
+  font-weight: 400;
+  transition: 0.3s;
+  padding: 19px 0 18px 0px;
+  text-align: left;
+}
+
+.faq-question:hover {
+  color: #1e1f36;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
