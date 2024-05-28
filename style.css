@@ -74,3 +74,10 @@ body {
   cursor: pointer;
   transition: 0.3s;
 }
+
+#faq-answer {
+  display: none;
+}
+
+#faq-text {
+}
