@@ -103,3 +103,14 @@ body {
   height: 0.1rem;
   background: #e8e8ea;
 }
+
+.first-one {
+  margin-top: 4rem;
+}
+
+#main-img {
+  position: absolute;
+  width: 23.7rem;
+  height: 18rem;
+  top: -11rem;
+}
