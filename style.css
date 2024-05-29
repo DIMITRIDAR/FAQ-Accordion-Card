@@ -75,9 +75,13 @@ body {
   transition: 0.3s;
 }
 
-#faq-answer {
+/* #faq-answer {
   display: none;
-}
+} */
 
 #faq-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #787887;
+  line-height: 1.8rem;
 }
