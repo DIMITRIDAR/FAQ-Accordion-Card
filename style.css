@@ -75,13 +75,25 @@ body {
   transition: 0.3s;
 }
 
-/* #faq-answer {
+#faq-answer {
   display: none;
-} */
+}
 
 #faq-text {
   font-size: 1.2rem;
   font-weight: 400;
   color: #787887;
   line-height: 1.8rem;
+}
+
+.arrow {
+  position: absolute;
+  right: 0;
+  top: 2.5rem;
+  width: 1rem;
+  height: 0.6rem;
+  stroke-width: 0.2rem;
+  stroke: #f47b56;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
 }
