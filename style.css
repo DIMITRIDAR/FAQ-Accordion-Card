@@ -109,6 +109,10 @@ body {
   margin-top: 4rem;
 }
 
+#shadow-desktop {
+  display: none;
+}
+
 #main-img {
   position: absolute;
   width: 23.7rem;
@@ -141,5 +145,29 @@ body {
     width: 47.2rem;
     height: 27.8rem;
     top: -11rem;
+  }
+
+  .faq-question {
+    font-size: 1.4rem;
+    padding: 1rem 21rem 1rem 2rem;
+    text-align: right;
+    font-weight: 700;
+  }
+
+  .arrow {
+    right: 9rem;
+  }
+
+  .line {
+    margin-top: 1.8rem;
+    width: 40rem;
+    margin-left: 41rem;
+  }
+
+  #shadow-mobile {
+    display: none;
+  }
+  #shadow-desktop {
+    display: block;
   }
 }
