@@ -1,23 +1,20 @@
-let mainItems = document.querySelectorAll(".faq-item");
-let faqAnswer = document.querySelectorAll(".faq-answer");
-let active = null;
+document.addEventListener("DOMContentLoaded", function () {
+  let mainItems = document.querySelectorAll(".faq-item");
 
-mainItems.forEach(function (mainItem) {
-  mainItem.addEventListener("click", function (e) {
-    let faqAnswer = mainItem.querySelector(".faq-answer");
-    if (active) {
-      active.style.display = "none";
-      if (faqAnswer === active) {
+  mainItems.forEach(function (mainItem) {
+    mainItem.addEventListener("click", function (e) {
+      let faqAnswer = mainItem.querySelector(".faq-answer");
+
+      // Toggle the visibility of the answer content
+      if (faqAnswer.style.display === "block") {
         faqAnswer.style.display = "none";
-        active = null;
         mainItem.querySelector(".arrow").style.transform = "rotate(0deg)";
         mainItem.querySelector(".faq-question").style.fontWeight = "400";
       } else {
         faqAnswer.style.display = "block";
-        active = faqAnswer;
+        mainItem.querySelector(".arrow").style.transform = "rotate(180deg)";
         mainItem.querySelector(".faq-question").style.fontWeight = "700";
-        mainItem.querySelector(".arrow").style.transform = "rotate(180deg);";
       }
-    }
+    });
   });
 });
