@@ -145,11 +145,23 @@ body {
     display: block;
   }
 
-  /* .woman-desktop {
+  .woman-desktop {
     background-image: url(./assets/illustration-woman-online-desktop.svg);
     width: 47.2rem;
     height: 35.8rem;
-  } */
+    position: absolute;
+    top: 10rem;
+    left: -7rem;
+  }
+
+  .question-section {
+    position: absolute;
+    top: 5rem;
+  }
+
+  .question-section h1 {
+    margin-left: 8rem;
+  }
 
   .faq-question {
     font-size: 1.4rem;
@@ -166,7 +178,7 @@ body {
   .line {
     margin-top: 1.8rem;
     width: 40rem;
-    margin-left: 41rem;
+    margin-left: 48rem;
   }
 
   #shadow-mobile {
@@ -177,7 +189,7 @@ body {
     background-repeat: no-repeat;
     width: 97rem;
     height: 95rem;
-    margin-left: -66rem;
+    margin-left: -59rem;
     position: absolute;
     bottom: -17rem;
   }
@@ -191,5 +203,12 @@ body {
 
   .three {
     margin-right: 2rem;
+  }
+
+  .box {
+    position: absolute;
+    z-index: 1;
+    top: 24rem;
+    left: -9rem;
   }
 }
