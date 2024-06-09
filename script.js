@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     mainItem.addEventListener("click", function (e) {
       let faqAnswer = mainItem.querySelector(".faq-answer");
       if (faqAnswer.style.display === "block") {
-        faqAnswer.style.display === "none";
+        faqAnswer.style.display = "none";
         mainItem.querySelector(".arrow").style.transform = "rotate(0deg)";
         mainItem.querySelector(".faq-question").style.fontWeight = "400";
       } else {
