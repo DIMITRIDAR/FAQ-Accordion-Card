@@ -48,8 +48,7 @@ body {
 .question-section {
   display: flex;
   flex-direction: column;
-  margin-bottom: 15rem;
-  gap: 1rem;
+  gap: 4rem;
 }
 
 .question-section h1 {
@@ -57,6 +56,7 @@ body {
   font-size: 3.2rem;
   font-weight: 700;
   align-self: center;
+  margin-top: 2rem;
 }
 
 .faq-item {
@@ -156,11 +156,12 @@ body {
 
   .question-section {
     position: absolute;
-    top: 5rem;
+    top: 3rem;
+    gap: 1rem;
   }
 
   .question-section h1 {
-    margin-left: 8rem;
+    margin-left: 9rem;
   }
 
   .faq-question {
@@ -168,6 +169,7 @@ body {
     padding: 1rem 21rem 1rem 2rem;
     text-align: right;
     font-weight: 700;
+    margin-right: -6rem;
   }
 
   .arrow {
@@ -178,7 +180,7 @@ body {
   .line {
     margin-top: 1.8rem;
     width: 40rem;
-    margin-left: 48rem;
+    margin-left: 43rem;
   }
 
   #shadow-mobile {
@@ -195,14 +197,14 @@ body {
   }
 
   .one {
-    margin-right: 6rem;
+    margin-right: 0rem;
   }
   .two {
-    margin-right: 6rem;
+    margin-right: 0rem;
   }
 
   .three {
-    margin-right: 2rem;
+    margin-right: -4rem;
   }
 
   .box {
