@@ -172,14 +172,15 @@ body {
   #shadow-mobile {
     display: none;
   }
-  /* .shadow-desktop {
+  .shadow-desktop {
     background-image: url(./assets/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     width: 97rem;
     height: 95rem;
     margin-left: -66rem;
-    transform: translateY(69rem);
-  } */
+    position: absolute;
+    bottom: -17rem;
+  }
 
   .one {
     margin-right: 6rem;
