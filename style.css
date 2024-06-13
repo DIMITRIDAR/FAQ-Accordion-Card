@@ -133,8 +133,18 @@ body {
     border-radius: 2.3rem;
     box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.5);
     width: 92rem;
-    height: 50.9rem;
-    overflow: hidden;
+  }
+
+  .changing {
+    background-image: url(./assets/illustration-woman-online-desktop.svg),
+      url(./assets/bg-pattern-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    width: 47.2rem, 97rem;
+    height: 35.8rem, 95rem;
+    top: 10rem, 0;
+    left: -7rem, 0;
+    margin-left: 0, -59rem;
+    bottom: 0, -17rem;
   }
 
   #main-img {
@@ -143,15 +153,6 @@ body {
 
   .photo-container-desktop {
     display: block;
-  }
-
-  .woman-desktop {
-    background-image: url(./assets/illustration-woman-online-desktop.svg);
-    width: 47.2rem;
-    height: 35.8rem;
-    position: absolute;
-    top: 10rem;
-    left: -7rem;
   }
 
   .question-section {
@@ -185,15 +186,6 @@ body {
 
   #shadow-mobile {
     display: none;
-  }
-  .shadow-desktop {
-    background-image: url(./assets/bg-pattern-desktop.svg);
-    background-repeat: no-repeat;
-    width: 97rem;
-    height: 95rem;
-    margin-left: -59rem;
-    position: absolute;
-    bottom: -17rem;
   }
 
   .one {
