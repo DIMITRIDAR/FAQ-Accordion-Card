@@ -155,7 +155,7 @@ body {
 
   .question-section {
     position: absolute;
-    top: 3rem;
+    top: 2rem;
     gap: 1rem;
   }
 
@@ -170,7 +170,9 @@ body {
     font-weight: 700;
     margin-right: -6rem;
   }
-
+  .faq-item {
+    margin-top: 0rem;
+  }
   .arrow {
     right: 1rem;
     top: 2rem;
@@ -202,5 +204,10 @@ body {
     z-index: 1;
     top: 20rem;
     left: -9rem;
+  }
+
+  .faq-answer {
+    width: 55ch;
+    transform: translateX(43rem);
   }
 }
