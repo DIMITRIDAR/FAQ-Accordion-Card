@@ -167,8 +167,11 @@ body {
     font-size: 1.4rem;
     padding: 1rem 21rem 1rem 2rem;
     text-align: right;
-    font-weight: 700;
+    font-weight: 400;
     margin-right: -6rem;
+  }
+  .faq-question:hover {
+    font-weight: 700;
   }
   .faq-item {
     margin-top: 0rem;
@@ -209,5 +212,9 @@ body {
   .faq-answer {
     width: 55ch;
     transform: translateX(43rem);
+  }
+
+  .last-answer {
+    width: 48ch;
   }
 }
