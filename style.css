@@ -133,16 +133,14 @@ body {
     border-radius: 2.3rem;
     box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.5);
     width: 92rem;
-  }
-
-  .changing {
     background-image: url(./assets/illustration-woman-online-desktop.svg),
       url(./assets/bg-pattern-desktop.svg);
     background-repeat: no-repeat, no-repeat;
-    width: 47.2rem, 97rem;
-    height: 35.8rem, 95rem;
-    top: 10rem, 0;
-    left: -7rem, 0;
+    background-size: 47.2rem 35.8rem, 97rem 95rem;
+    background-position: left -7rem top 6rem, bottom -15rem right 50rem;
+  }
+
+  .changing {
     margin-left: 0, -59rem;
     bottom: 0, -17rem;
   }
@@ -202,7 +200,7 @@ body {
   .box {
     position: absolute;
     z-index: 1;
-    top: 24rem;
+    top: 20rem;
     left: -9rem;
   }
 }
