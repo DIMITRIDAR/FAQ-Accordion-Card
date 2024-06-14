@@ -158,7 +158,7 @@ body {
     padding: 1rem 21rem 1rem 2rem;
     text-align: right;
     font-weight: 400;
-    margin-right: -6rem;
+    margin-right: -2rem;
   }
   .faq-question:hover {
     font-weight: 700;
@@ -182,14 +182,14 @@ body {
   }
 
   .one {
-    margin-right: 0rem;
+    margin-right: 4rem;
   }
   .two {
-    margin-right: 0rem;
+    margin-right: 4rem;
   }
 
   .three {
-    margin-right: -4rem;
+    margin-right: 0rem;
   }
 
   .box {
