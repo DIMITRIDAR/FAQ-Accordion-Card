@@ -140,11 +140,6 @@ body {
     background-position: left -7rem top 6rem, bottom -15rem right 50rem;
   }
 
-  .changing {
-    margin-left: 0, -59rem;
-    bottom: 0, -17rem;
-  }
-
   #main-img {
     display: none;
   }
