@@ -145,7 +145,6 @@ body {
   }
 
   .question-section {
-    position: absolute;
     top: 2rem;
     gap: 1rem;
   }
