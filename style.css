@@ -37,10 +37,6 @@ body {
   align-self: center;
 }
 
-.active {
-  display: block !important;
-}
-
 .photo-container-desktop {
   display: none;
 }
