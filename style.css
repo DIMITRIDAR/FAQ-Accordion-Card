@@ -35,6 +35,8 @@ body {
 
 .photo-container-mobile {
   align-self: center;
+  margin-right: 24rem;
+  transform: translateY(-5rem);
 }
 
 .photo-container-desktop {
@@ -52,7 +54,7 @@ body {
   font-size: 3.2rem;
   font-weight: 700;
   align-self: center;
-  margin-top: 2rem;
+  margin-top: 7rem;
 }
 
 .faq-item {
