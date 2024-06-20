@@ -120,6 +120,11 @@ body {
   top: -11rem;
 }
 
+#shadow-mobile {
+  position: absolute;
+  top: 1rem;
+}
+
 #woman-desktop {
   display: none;
 }
