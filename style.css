@@ -36,7 +36,7 @@ body {
 .photo-container-mobile {
   align-self: center;
   margin-right: 24rem;
-  transform: translateY(-5rem);
+  transform: translateY(-4rem);
 }
 
 .photo-container-desktop {
@@ -54,7 +54,8 @@ body {
   font-size: 3.2rem;
   font-weight: 700;
   align-self: center;
-  margin-top: 7rem;
+  margin-top: 2rem;
+  transform: translateY(6rem);
 }
 
 .faq-item {
@@ -68,6 +69,7 @@ body {
   transition: 0.3s;
   padding: -0.5rem 0 1.8rem 0;
   text-align: left;
+  transform: translateY(1rem);
 }
 
 .faq-question:hover {
@@ -91,7 +93,7 @@ body {
 .arrow {
   position: absolute;
   right: -1rem;
-  top: 0.5rem;
+  top: 1.5rem;
   width: 1rem;
   height: 0.6rem;
   stroke-width: 0.2rem;
@@ -105,6 +107,7 @@ body {
   width: 100%;
   height: 0.1rem;
   background: #e8e8ea;
+  transform: translateY(1rem);
 }
 
 .first-one {
