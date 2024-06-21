@@ -18,6 +18,7 @@ body {
   min-height: 100vh;
   background-repeat: no-repeat;
   background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
+  align-items: center;
 }
 
 .card {
@@ -36,7 +37,6 @@ body {
 .photo-container-mobile {
   align-self: center;
   margin-right: 24rem;
-  transform: translateY(-4rem);
 }
 
 .photo-container-desktop {
@@ -54,8 +54,7 @@ body {
   font-size: 3.2rem;
   font-weight: 700;
   align-self: center;
-  margin-top: 2rem;
-  transform: translateY(6rem);
+  margin-top: 13.2rem;
 }
 
 .faq-item {
@@ -161,6 +160,7 @@ body {
 
   .question-section h1 {
     margin-left: 6rem;
+    transform: translateY(-1rem);
   }
 
   .faq-question {
