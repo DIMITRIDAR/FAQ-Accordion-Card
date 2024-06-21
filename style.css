@@ -154,7 +154,7 @@ body {
   }
 
   .question-section {
-    top: 2rem;
+    margin-top: -5rem;
     gap: 1rem;
   }
 
